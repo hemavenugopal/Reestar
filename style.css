@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section-one{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.section-one__name{
+    padding: 10px;
+
+}
+.section-one__desc{
+    padding: 10px;
+
+}
+.section-two,.section-three,.section-four,.section-five{
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: solid black 2px ;
+    width: 14%;
+    
+}
+.section-two img {
+    width: 95%;
+   
+
+}
+.section-two__name,.section-three__name,.section-four__name,.section-five__name{
+    margin-top: 10px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+
+}
+.section-two__button,.section-three__button,.section-four__button,.section-five__button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+.images{
+    text-align: center;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: -webkit-center;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.contact__input{
+    margin-top: 10px;
+    
+}
+.contact-button{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-style: none;
+    margin-top: 10px;
+    width: 40%;
+}
